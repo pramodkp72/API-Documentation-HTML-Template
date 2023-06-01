@@ -5,7 +5,7 @@
 You can take a look with this [DEMO](https://floriannicolas.github.io/API-Documentation-HTML-Template/). \
 Or this other [One Content Column DEMO](https://floriannicolas.github.io/API-Documentation-HTML-Template/one-content-column). 
 
-## Current version : 1.0.5
+## Current version : 1.0.0
 
 
 ### What's new in the latest version : 

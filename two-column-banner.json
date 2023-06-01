@@ -1,0 +1,98 @@
+{
+    "name": "two-columns-component",
+    "desc": "Two Column Image Banner",
+    "type": "banner",
+    "multi": false,
+    "env": ["development", "production"],
+    "image": "https://images.lightbooks-dev.io/website_templates/banners/two-columns-component.jpg",
+    "helpImage": "https://images.lightbooks-dev.io/website_templates/pages/hero/hero_1.jpg",
+    "demoSite": "https://vsfashion.lightbooks-dev.io",
+    "staticImage": "https://images.lightbooks-dev.io/website_templates/banners/two-columns-component-static.jpg",
+    "preview": "https://images.lightbooks-dev.io/website_templates/pages/hero/hero_1.jpg",
+    "settings": [
+      {
+        "key": "disable_heading",
+        "name": "Disable heading",
+        "type": "checkbox",
+        "values": false,
+        "hide": true
+      }
+    ],
+    "fields": [
+      {
+        "key": "imageOne",
+        "name": "Image Right",
+        "type": "image",
+        "mobileRatio": "1902×967/2:1",
+        "mobileRatioDesc": "Recommended Size 1902px × 967px / Aspect ratio 2:1",
+        "desktopRatio": "800×800/1:1",
+        "desktopRatioDesc": "Recommended Size 800px × 800px / Aspect ratio 1:1",
+        "isMobileRequired": true,
+        "required": true,
+        "description": "Image on the right. This is a required field"
+      },
+      {
+        "key": "actionOne",
+        "name": "Action",
+        "type": "productCategory",
+        "required": true,
+        "description": "This is a product api"
+      },
+  
+      {
+        "key": "imageTwo",
+        "name": "Image Left",
+        "type": "image",
+        "mobileRatio": "1902×967/2:1",
+        "mobileRatioDesc": "Recommended Size 1902px × 967px / Aspect ratio 2:1",
+        "desktopRatio": "1902×967/2:1",
+        "desktopRatioDesc": "Recommended Size 1902px × 967px / Aspect ratio 2:1",
+        "isMobileRequired": true,
+        "required": true
+      },
+      {
+        "key": "actionTwo",
+        "name": "Action",
+        "type": "productCategory",
+        "required": true
+      },
+      {
+        "key": "colorBorder",
+        "name": "Image Shadow",
+        "type": "colorPicker",
+        "values": "",
+        "required": false
+      }
+    ]
+  }
+  
+  {
+    "fields": [
+        {
+            "imageOne": {
+                "desktopUrl": "https://images.lightbooks-dev.io/website_templates/banners/two-columns-component.jpg",
+                "mobileUrl": "https://images.lightbooks-dev.io/website_templates/banners/two-columns-component.jpg"
+            }
+        },
+        {
+            "actionOne": {
+                "type":"product",
+                "value": "6472ccf36b971f00147b6046"
+        },
+        {
+            "imageTwo": {
+                "desktopUrl": "https://images.lightbooks-dev.io/website_templates/banners/two-columns-component.jpg",
+                "mobileUrl": "https://images.lightbooks-dev.io/website_templates/banners/two-columns-component.jpg"
+            }
+        },
+        {
+            "actionTwo": {
+                "type":"category",
+                "value": "6472ccf36b971f00147b6971"
+        },
+        {
+            "colorBorder": {
+                "value": "#000000"
+        },
+    ]
+  }
